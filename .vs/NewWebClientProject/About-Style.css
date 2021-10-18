@@ -1,0 +1,131 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #0b0f12;
+    font-family: Courier New, Courier, monospace;
+    background-image: url(../shadow.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #fffd;
+    border-radius: 16px;
+    height: 61.5vh;
+}
+.masthead-heading,
+.masthead-intro {
+    text-align: center;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url('code.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*border-top: solid 1em #000000;*/
+    border-radius: 16px;
+    margin-top:-7px;
+}
+
+.masthead-intro {
+
+    margin-bottom: 0.1em;
+
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+    color:#ffffff
+}
+
+.masthead-heading {
+
+    color: #F1C863;
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #ffffff
+}
+.text {
+    color: #ffffff;
+    text-align:center;
+}
+text, h1 {
+    text-decoration: underline;
+}
+.menu {
+    float: right;
+}
+
+.fix {
+    clear: both;
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+    .menu ul li {
+        list-style: none;
+    }
+
+        .menu ul li a {
+            display: block;
+            margin: 10px 0px;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 12px;
+            color: #FFFFFF;
+        }
+input[type=button] {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    outline: none;
+    transition: transform 80ms ease-in;
+}
+
+    input[type=button]:active {
+        transform: scale(0.95);
+    }
+
+.social {
+    position: absolute;
+    bottom: 40px;
+}
+
+    .social ul li {
+        list-style: none;
+    }
+
+        .social ul li a {
+            text-decoration: none;
+            color: rgba(232,232,232,1.00);
+        }
+
+    .social i {
+        padding: 13px 20px;
+        font-size: 12px;
+    }
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.brand img {
+    height: 100px;
+}
+
+.brand a {
+    margin: 0px 50px;
+}
